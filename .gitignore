@@ -1,0 +1,31 @@
+# ==================================
+# DATASETS
+# ==================================
+
+# Todos os dados gerados pelo pipeline
+data/*
+!data/.gitkeep
+
+# Base histórica da B3 (temporário)
+series_historicas_b3/arquivos_extraidos/
+
+# Arquivos de dados
+*.csv
+*.parquet
+*.zip
+*.7z
+*.rar
+*.feather
+*.h5
+*.hdf5
+*.db
+*.duckdb
+
+# ==================================
+# PYTHON
+# ==================================
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
